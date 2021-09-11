@@ -7,6 +7,7 @@ import SimpleCard from '../Components/card1';
 import Typography from '@material-ui/core/Typography';
 
 
+
 export default function Home() {
   return (
     <React.Fragment>
