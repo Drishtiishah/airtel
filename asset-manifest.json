@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/airtel/static/css/main.af840fbd.chunk.css",
-    "main.js": "/airtel/static/js/main.263f3f64.chunk.js",
-    "main.js.map": "/airtel/static/js/main.263f3f64.chunk.js.map",
+    "main.css": "/airtel/static/css/main.77477f31.chunk.css",
+    "main.js": "/airtel/static/js/main.dd8f0f4e.chunk.js",
+    "main.js.map": "/airtel/static/js/main.dd8f0f4e.chunk.js.map",
     "runtime-main.js": "/airtel/static/js/runtime-main.548a67f2.js",
     "runtime-main.js.map": "/airtel/static/js/runtime-main.548a67f2.js.map",
-    "static/js/2.b93381f1.chunk.js": "/airtel/static/js/2.b93381f1.chunk.js",
-    "static/js/2.b93381f1.chunk.js.map": "/airtel/static/js/2.b93381f1.chunk.js.map",
+    "static/js/2.37988614.chunk.js": "/airtel/static/js/2.37988614.chunk.js",
+    "static/js/2.37988614.chunk.js.map": "/airtel/static/js/2.37988614.chunk.js.map",
     "index.html": "/airtel/index.html",
-    "static/css/main.af840fbd.chunk.css.map": "/airtel/static/css/main.af840fbd.chunk.css.map",
-    "static/js/2.b93381f1.chunk.js.LICENSE.txt": "/airtel/static/js/2.b93381f1.chunk.js.LICENSE.txt"
+    "static/css/main.77477f31.chunk.css.map": "/airtel/static/css/main.77477f31.chunk.css.map",
+    "static/js/2.37988614.chunk.js.LICENSE.txt": "/airtel/static/js/2.37988614.chunk.js.LICENSE.txt",
+    "static/media/Airtel.2d063417.png": "/airtel/static/media/Airtel.2d063417.png"
   },
   "entrypoints": [
     "static/js/runtime-main.548a67f2.js",
-    "static/js/2.b93381f1.chunk.js",
-    "static/css/main.af840fbd.chunk.css",
-    "static/js/main.263f3f64.chunk.js"
+    "static/js/2.37988614.chunk.js",
+    "static/css/main.77477f31.chunk.css",
+    "static/js/main.dd8f0f4e.chunk.js"
   ]
 }
