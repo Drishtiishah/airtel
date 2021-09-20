@@ -5,6 +5,10 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import FormPropsTextFields from './Inputform';
+import OutlinedButtons from './Buttons';
+import OutlinedButtons2 from './Buttons2';
+import OutlinedButtons3 from './Buttons3';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,7 +45,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Icons and buttons to be added
+          <FormPropsTextFields/>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -54,9 +58,7 @@ export default function ControlledAccordions() {
           <Typography className={classes.heading}>Net Banking</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-           Icons and buttons
-          </Typography>
+          <OutlinedButtons/>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -68,9 +70,7 @@ export default function ControlledAccordions() {
           <Typography className={classes.heading}>UPI</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-           Icons and buttons
-          </Typography>
+        <OutlinedButtons2/>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
@@ -82,9 +82,7 @@ export default function ControlledAccordions() {
           <Typography className={classes.heading}>Wallets</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-           Icons and buttons
-          </Typography>
+        <OutlinedButtons3/>
         </AccordionDetails>
       </Accordion>
     </div>

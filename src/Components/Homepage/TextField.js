@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import ContainedButtons from './Button1';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,8 +17,8 @@ export default function BasicTextFields() {
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-     
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      <TextField id="outlined-basic" label="Mobile Number" variant="outlined" /> 
+      <ContainedButtons/>
     </form>
   );
 }

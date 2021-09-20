@@ -14,9 +14,8 @@
 .App-footer {
   background-color: #282c34;
   color: white;
-  position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: fixed;
   width: 100%;
   text-align: center;
 }

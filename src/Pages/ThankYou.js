@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleCard from '../Components/Card2';
+import SimpleCard from '../Components/ThankYouPage.js/ThankYou';
 
 
 export default function ThankYou() {

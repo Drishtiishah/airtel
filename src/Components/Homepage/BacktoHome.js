@@ -11,7 +11,7 @@ export default function ButtonLink() {
         console.info("I'm a button.");
       }}
     >
-      Button Link
+      Back to top
     </Link>
   );
 }
